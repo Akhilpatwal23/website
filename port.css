@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;  
+}
+.leftb{
+    width: 50%;
+    padding-left: 10%;
+    color: rgba(3, 3, 3, 0.829);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    
+}
+.rightb{
+    width: 50%;
+    
+}
+.skill{
+  
+   padding: 4%;
+   background-color: #ccc8c8;
+}
+.rightb ul li a{
+    color: aliceblue;
+}
+
+.navbar{
+    background-color: rgb(102, 102, 102);
+}
+.slideUp {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+    transition: transform .5s ease-out;
+  }
+  
+  .slideDown {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    transition: transform .5s ease-out;
+  }
+
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+ 
+}
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    width: 40%;
+
+  
+}
+.bt1{
+    margin: 2%;
+}
+
+.img2{
+    
+    border-radius: 50% ;
+    border: solid 3px black;
+   
+    width: 100vw; max-width: 31em;
+                  height: calc(100vw * (15/16)); max-height: calc(31em * (16/16)); 
+            
+}
+
+
+.row {
+    display: flex;
+    margin: 5%;
+  }
+  .img1{
+    flex: 1;
+  }
+  .card{
+    width: 79%;
+  }
+ .card-img-top {
+ 
+    height: 160px;
+ }
+ 
+ .servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+#about, #services, #portfolio, #contact {
+    margin-top: 2rem;
+    padding-top: 4rem;
+}
+#portfolio{
+    padding: 4%;
+    background-color: #ccc8c8;
+}
+#contact {
+    padding-bottom: 4rem;
+}
